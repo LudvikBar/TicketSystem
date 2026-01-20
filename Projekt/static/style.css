@@ -1,0 +1,69 @@
+body{
+
+    margin: 0;
+    padding: 0;
+
+    
+}
+*{
+  text-decoration: none;
+  color: beige;
+}
+
+
+
+.container2{
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 10vh;
+width: 100%;
+height: auto;
+padding-top: 10vh;
+}
+
+
+
+
+
+.AKbox{
+    height: 50vh;
+    width: 50vh;
+    border-radius: 20px;
+    background-color: rgba(112, 113, 113, 0.74);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.Abox{
+    height: 10vh;
+    width: 20vh;
+    border-radius: 20px;
+    background-color: rgba(112, 113, 113, 0.393);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.AKtext{
+ font-weight: 900;
+}
+
+
+.AKbox:hover,
+.Abox:hover {
+  background-color: rgba(0, 0, 0, 0.455);
+}
+
+
+
+
+
+
+
+.container1 {
+  width: 100%;
+  height: 100vh;
+
+}
