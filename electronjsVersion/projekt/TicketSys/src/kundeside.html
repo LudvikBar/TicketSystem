@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html>
+  <link rel="stylesheet" href="kundeside.css">
 <head>
   <meta charset="UTF-8">
   <title>TicketSys</title>
 </head>
 <body>
 
+
+<div class="ticketform">
 <h1>Send Ticket</h1>
 
 <form id="ticketForm">
@@ -17,6 +20,35 @@
 </form>
 
 <p id="status"></p>
+</div>
+
+
+
+<div class="viewtickets">
+<h1>Se dine tickets</h1>
+<p>Navnet må være skrevet helt rett som da du la in en ticket. Store og små bokstaver har mye å si.</p>
+<form id="searchForm">
+  <input type="email" id="searchEmail" placeholder="E-post" required>
+  <button type="submit">Søk</button>
+</form>
+
+<table border="1" style="margin-top:10px; width:100%;">
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Tema</th>
+      <th>Beskrivelse</th>
+      <th>Status</th>
+      <th>Opprettet</th>
+    </tr>
+  </thead>
+  <tbody id="ticketTableBody"></tbody>
+</table>
+
+</div>
+
+
+
 
 <script src="kundeside.js"></script>
 </body>

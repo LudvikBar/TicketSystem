@@ -10,5 +10,19 @@ contextBridge.exposeInMainWorld('api', {
       body: JSON.stringify(ticket)
     });
     return res.json();
+  },
+
+  getTicketsByEmail: async (email) => {
+    const res = await fetch(
+      `http://10.2.3.26:3000/tickets/by-email/${encodeURIComponent(email)}`
+    );
+    return res.json();
   }
 });
+
+
+
+
+
+
+

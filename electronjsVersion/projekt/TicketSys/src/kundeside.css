@@ -1,0 +1,10 @@
+body{
+    display: flex;
+}
+
+
+.viewtickets{
+position: fixed;
+right: 10%;
+max-width: 50%;
+}
