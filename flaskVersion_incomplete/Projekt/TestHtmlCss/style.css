@@ -12,25 +12,34 @@ body{
 
 
 
+
+
 .container2{
 display: flex;
 justify-content: center;
 align-items: center;
-gap: 10vh;
 width: 100%;
 height: auto;
-padding-top: 10vh;
+
+}
+
+.container2-1{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 100%;
+height: auto;
+
+
 }
 
 
 
 
-
 .AKbox{
-    height: 50vh;
-    width: 50vh;
-    border-radius: 20px;
-    background-color: rgba(112, 113, 113, 0.74);
+    height: 100vh;
+    width: 50%;
+    background-color: rgba(112, 113, 113, 0.84);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -41,22 +50,36 @@ padding-top: 10vh;
     height: 10vh;
     width: 20vh;
     border-radius: 20px;
-    background-color: rgba(112, 113, 113, 0.393);
+    background-color: rgba(112, 113, 113, 0.84);
     display: flex;
     justify-content: center;
     align-items: center;
+    position: absolute;
+    bottom: 0;
 }
 .AKtext{
- font-weight: 900;
+font-size: 40px;
 }
-
+.Atext{
+font-size: 25px;
+}
+.Atext:hover{
+font-size: 30px;
+}
+.AKtext:hover{
+font-size: 50px;
+}
 
 .AKbox:hover,
 .Abox:hover {
-  background-color: rgba(0, 0, 0, 0.455);
+  background-color: rgb(0, 77, 177);
+  width: 51%;
+
 }
-
-
+.AKbox,
+.Abox {
+  transition: width 0.3s ease;
+}
 
 
 
